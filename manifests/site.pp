@@ -4,5 +4,4 @@ node default {
     content => 'This is the readme file',
     owner => 'root',
   }
-  include dev_environment
 }
