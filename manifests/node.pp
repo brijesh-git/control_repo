@@ -13,5 +13,4 @@ class dev_environment {
     source => 'puppet///modules/dev_environment/vimrc'
   
   }
-
 }
