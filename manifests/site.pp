@@ -1,6 +1,3 @@
-node default {
- include my_dev_server,
-}
 class my_dev_server {
 
  file{ '/root/README.md':
@@ -12,3 +9,6 @@ class my_dev_server {
     ensure => true,
   }
 }
+
+include my_dev_server
+
