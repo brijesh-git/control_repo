@@ -6,7 +6,7 @@ class my_dev_server {
     owner => 'root',
   }
   package { "vim":
-    ensure => true,
+    ensure => 'installed',
   }
 }
 
