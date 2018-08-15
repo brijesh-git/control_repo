@@ -1,5 +1,5 @@
 node default {
- include my_dev_server
+ include my_dev_server,
 }
 class my_dev_server {
 
@@ -8,7 +8,7 @@ class my_dev_server {
     content => 'This is the readme file modified',
     owner => 'root',
   }
-  package { "vim",
-    ensure => true
+  package { "vim":
+    ensure => true,
   }
 }
