@@ -8,6 +8,9 @@ class my_dev_server {
   package { "vim":
     ensure => 'installed',
   }
+  package { "yum":
+    ensure => 'installed',
+  }  
 }
 
 include my_dev_server
